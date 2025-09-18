@@ -45,7 +45,7 @@ const BuyerLandingPage = () => {
         {/* Right Side Image */}
         <motion.img
           src={Lady}
-          alt="A Ldy smiling"
+          alt="A Lady smiling"
           className={styles.heroImage}
           variants={fadeInUp}
           custom={0.4}
