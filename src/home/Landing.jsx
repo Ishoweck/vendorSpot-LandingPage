@@ -1,6 +1,6 @@
 import styles from './BuyerLandingPage.module.css';
 import { motion } from 'framer-motion';
-import Lady from "../assets/lady.svg"
+import Lady from "../../src/assets/lady.svg"
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
