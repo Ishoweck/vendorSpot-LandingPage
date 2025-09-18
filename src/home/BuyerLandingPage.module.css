@@ -1,0 +1,167 @@
+.buyerLandingPage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+  background-color: #fff;
+  padding: 2rem 1rem;
+}
+
+/* HERO SECTION */
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.heroText {
+  text-align: center;
+  max-width: 600px;
+}
+
+.startSellingSmarterContainer {
+  margin-bottom: 1rem;
+}
+
+.buyerLandingPageStartSellingSmarter {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.vendorspot {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #D7195B;
+}
+
+.joinNigeriasTrustedContainer {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+/* STATS SECTION */
+.statsSection {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.statBlock {
+  background-color: #f9f9f9;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  min-width: 100px;
+  flex: 1 1 28%;
+  max-width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.statBlock:hover {
+  transform: translateY(-5px);
+}
+
+.statNumber {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #D7195B;
+}
+
+.statLabel {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.3rem;
+}
+
+/* FEATURE HIGHLIGHTS SECTION */
+.featuresSection {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.featureBlock {
+  background-color: #fff4f7;
+  border-left: 4px solid #D7195B;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(215, 25, 91, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.featureBlock:hover {
+  transform: translateY(-4px);
+}
+
+.featureTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #D7195B;
+  margin-bottom: 0.4rem;
+}
+
+.featureText {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* CTA */
+.createAStoreNowWrapper {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.createAStore {
+  background-color: #D7195B;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  display: inline-block;
+  min-width: 180px;
+  max-width: 220px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.createAStore:hover {
+  background-color: #c0154f;
+}
+
+/* RESPONSIVE DESIGN */
+@media (min-width: 768px) {
+  .heroSection {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .heroText {
+    text-align: left;
+  }
+
+  .featuresSection {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .featureBlock {
+    flex: 1;
+    max-width: 300px;
+  }
+}
